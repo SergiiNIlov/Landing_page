@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         html {
             font-size: 10px;
@@ -70,22 +71,7 @@
             display: flex;
             justify-content: space-evenly;
         }
-        
-        @media screen and (max-width: 400px) {
-            #pricing {
-                flex-direction: column;
-            }
-            #nav-bar {
-                flex-direction: column;
-            }
-            body {
-                height: 100%;
-            }
-            header {
-                height: 12rem;
-            }
-        }
-        
+
         .price_card {
             border: solid;
             border-radius: 5px;
@@ -102,6 +88,20 @@
             font-size: 1.8rem;
             padding: 2rem;
             font-weight: 800;
+        }
+        @media screen and (max-width: 400px) {
+            #pricing {
+                flex-direction: column;
+            }
+            #nav-bar {
+                flex-direction: column;
+            }
+            body {
+                height: 100%;
+            }
+            header {
+                height: 12rem;
+            }
         }
     </style>
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Martel:400,700" rel="stylesheet">
