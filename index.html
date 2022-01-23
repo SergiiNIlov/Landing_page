@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        html {
+            font-size: 10px;
+            background-color: #C5D0DD;
+        }
+        
+        body {
+            font-family: 'Martel', serif;
+            color: #2B394A;
+            margin-inline: auto;
+        }
+        
+        header {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: #FDA5A4;
+            border: solid;
+            border-radius: 5px;
+        }
+        
+        #nav-bar {
+            display: flex;
+            position: fi;
+        }
+        
+        h2,
+        h3 {
+            font-family: 'Karla', sans-serif;
+            font-weight: 700;
+        }
+        
+        #navs {
+            margin: 1rem;
+        }
+        
+        #header-img {
+            justify-content: flex-start;
+        }
+        
+        a {
+            color: #2B394A;
+            text-decoration: none;
+        }
+        
+        #features {
+            padding-left: 20%;
+        }
+        
+        #form_sec {
+            text-align: center;
+        }
+        
+        #email {
+            line-height: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        #submit {
+            background-color: #FDA5A4;
+            padding: 0.5rem;
+        }
+        
+        #pricing {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        @media screen and (max-width: 400px) {
+            #pricing {
+                flex-direction: column;
+            }
+            #nav-bar {
+                flex-direction: column;
+            }
+            body {
+                height: 100%;
+            }
+            header {
+                height: 12rem;
+            }
+        }
+        
+        .price_card {
+            border: solid;
+            border-radius: 5px;
+        }
+        
+        .price_info {
+            padding: 2rem;
+        }
+        
+        .price_header {
+            background-color: #FDA5A4;
+            margin: 0;
+            text-align: center;
+            font-size: 1.8rem;
+            padding: 2rem;
+            font-weight: 800;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Martel:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="header">
+        <img src="https://novibonjovi.github.io/product-landing-page/img/original_trombones.png" width="200" height="auto" id="header-img">
+        <nav id="nav-bar">
+
+            <div id="navs"><a href="#features">Features </a></div>
+            <div id="navs"><a href="#how_it_works">How it works </a></div>
+            <div id="navs"><a href="#pricing">Pricing </a></div>
+        </nav>
+    </header>
+    <section id="form_sec">
+        <h2>
+            Handcrafted, home-made masterpieces
+        </h2>
+        <form id="form">
+            <input type="emal" id="email" placeholder="Enter your email address" required><br>
+            <input type="submit" value="Get Started" id="submit">
+        </form>
+    </section>
+
+    <section id="features">
+        <div>
+
+            <h2>Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            <h2>Fast Shipping</h2>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            <h2>Quality Assurance</h2>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+
+        </div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <section id="how_it_works">
+
+    </section>
+
+
+    <section id="pricing">
+        <div class="price_card">
+
+            <div class="price_header">TENOR TROMBONE</div>
+            <div class="price_info">
+                <h3>$600</h3>
+                <p>
+                    Lorem ipsum.<br> Lorem ipsum.<br> Lorem ipsum dolor.<br> Lorem ipsum.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="price_card">
+            <div class="price_header">BASS TROMBONEE</div>
+            <div class="price_info">
+                <h3>$900</h3>
+                <p>
+                    Lorem ipsum.<br> Lorem ipsum.<br> Lorem ipsum dolor.<br> Lorem ipsum.
+                </p>
+            </div>
+        </div>
+
+        <div class="price_card">
+            <div class="price_header">VALVE TROMBONE</div>
+            <div class="price_info">
+                <h3>$1200</h3>
+
+                <p>
+                    Lorem ipsum.<br> Lorem ipsum.<br> Lorem ipsum dolor.<br> Lorem ipsum.
+                </p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
